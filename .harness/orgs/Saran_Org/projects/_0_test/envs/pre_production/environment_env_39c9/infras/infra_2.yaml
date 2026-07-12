@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: infra 2
+  identifier: infra_2
+  orgIdentifier: Saran_Org
+  projectIdentifier: _0_test
+  environmentRef: environment_env_39c9
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: <+input>
+    namespace: <+input>
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
