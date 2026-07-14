@@ -1,0 +1,9 @@
+---
+service:
+  tags: {}
+  serviceDefinition:
+    type: "Kubernetes"
+    spec: {}
+  identifier: "K8_Service_with_long_name_long_name_long_name_long_name_long_name_long_name_long_name_long_name_long_name_Clone_2"
+  name: "K8 Service with long name long name long name long name long name long name\
+    \ long name long name long name - Clone 2"
